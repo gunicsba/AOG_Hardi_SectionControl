@@ -15,9 +15,7 @@ in real time.
 
 ## Usage
 
-```
-python AOG_TUVR_bridge.py
-```
+Just download the exe from the Releases
 
 On first run you will be prompted to select a COM port. The choice is saved
 to `config.ini` so subsequent runs connect automatically.
