@@ -1,112 +1,93 @@
-%PDF-1.4
-%���� ReportLab Generated PDF document (opensource)
-1 0 obj
-<<
-/F1 2 0 R /F2 3 0 R
->>
-endobj
-2 0 obj
-<<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
->>
-endobj
-3 0 obj
-<<
-/BaseFont /Symbol /Name /F2 /Subtype /Type1 /Type /Font
->>
-endobj
-4 0 obj
-<<
-/Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
-endobj
-5 0 obj
-<<
-/Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
-endobj
-6 0 obj
-<<
-/Contents 12 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
->>
-endobj
-7 0 obj
-<<
-/PageMode /UseNone /Pages 9 0 R /Type /Catalog
->>
-endobj
-8 0 obj
-<<
-/Author (\(anonymous\)) /CreationDate (D:20260322233645+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260322233645+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (\(anonymous\)) /Trapped /False
->>
-endobj
-9 0 obj
-<<
-/Count 3 /Kids [ 4 0 R 5 0 R 6 0 R ] /Type /Pages
->>
-endobj
-10 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 867
->>
-stream
-Gatn%@8GlJ&;Iso=%kq5_98N(.L=o=@O1IFdX%@<+1CPNp2"r`h(9]Jrh`,t[ZMD_+cst:lne+U]<f<SRm'U;)l<T;+&8sYE8'6ji1(g[JU[bHhtghCYE@WKkk:#i/pc=`mBF<!'uj.JbSZ;99JO^C!nG.3QLg.*F:"4MiH>6?kNHL[r4?;ln5++j^f3lM6^ba&kpr>0$,R;L^M-oa\o$:f5CHh:!TA?LIVt>L>bf^Q-l-&1.ZEL[`=Do0jPORE!>>fCF*st2qb+(8P$sZN0G'of'b=,n=lKZ_cs,V42rt(/(IS:BqO*.G,otUc+G;LE1VlFj\.l`$s"0tu!nSBO`t0qa;/%ph/>]06Agi@1PV-3=bsOjurZ@3\*[W[H_XL]@BqYtbV@6At-UVb/KLU86"W]'jI#XjEZIN^?CGoI91au2XL2BaeUL>]E8^'Nf_oung[S$o3/;k2u[*n9mG%lL[%6'b?#Uuu7m2<HdJ/d;LVikV]Y,!gHQu]Ss_;go@"jBHFGN7At"%Lo%q;]Y>^Z4HQ-+Gj2!L](^Xnb<15ndQ:G0eE2Ad5d@nSWBi2P>--7PUT8DG73e8-(?r)M*fC.RbC(RhFt?5@_!M-po\o84*q<&Xa8B)H&"DW?K]&Sm:BdJh!Y'ct!J6bE(N@q?_m@0B(=M+.hE=oj)e^jhmc^K8KV-M'$P)^mZQk43@`8s4Ycd?L7$W.-7Teg'9>0LFV>+J&\G43'2XFnNZVR8Gu6\Y&!V<R+[i'-_,$XZi\E:*HuuK4Voh[!5)C,!;6$j)5\0_+ReAPD6Q6!;bPKdVsC8`Wg1`*UhGNN%<)i!@f&PoB^Sr)i>uZ$bld_+4E/'R"8^bkCOu-hH35JK~>endstream
-endobj
-11 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 564
->>
-stream
-Gat=h;/b/B&BE]".K1fs7(36+<ru?2;@'E$Y\L7-;]eg^2jfcYM4#C<na1*Y8haIL'jJethfh;Wn'7dQG1,@lVnaEAl]QiT6o32rjr'o^\;7d^*\As*?$(D;DR\6fXbV*_dUK(qb4Ak37pL+r'ScJ#ZRi],q]1Se2fM[1fc".71`@`tIO"]BoiJ?IC)E-GL"NtIY4[IUrGlJ1K<`K<cl1nf:VT)5\J3pbc8-Z"k.(IuYo@4U,0b[4,N:g_RAm\"qqjLYS;[0i/5o'RrG_r4,kUmjWpk=jcPQj`i##eujlo*hF%8?u8$GQ.9u7/rEgB1qI',6V4>uDUCj31-7Z8UFMlB$o*S0DV&#H1fH9=35mu6:ob9VFRj<Eo<aOZlVAM\#?s%[1+IBCc7Md`Afqc2aSm/ng)>m`YI(?WQP%ZH,/`q!`ib8,3l5X+e)!W@UEHb5hF[Q]+T^:32h.JJ-X3_Ae:Yh(%fmSrb3%,hH<@NfP(9]aE:\dIh^=X`S;Q,NgN8Nt12.4+DYMB=?D"$o6,&UkH*_S/HW?Pr,;_cOZ<K0MMD08%%t56~>endstream
-endobj
-12 0 obj
-<<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 447
->>
-stream
-Gat%^?VeNm'ZJu(.8F>GV?sINi-]*,9`0P&9RPcpG'?d9>&??\55<e_'@7VE0MS%lHV].)pS84[?`ZF[#n0aS`XJr,1^E?SHUof/RKh(=>:YbEo_PX0a!\.,&aWjDb-`\/F-KsO_h4m'RX*goCl:N84L4m:7l@rk6AM[DlN$/odR1*Z\@76-V3&?HJhRQsqIf9'K8/AD8hc&[WGic80K@a?FZ!l6LWsef_!Pgneo=3ijC08I22];n,Xn9gN4[>#B&3Go?26?%?Fb1I-K0Xp14pbIUm37a]<AiIs'q\B8=`<QU!'`>;K+"kqEZ.nU3PU*q1#ap<uD1>;,8`a'\^-:oO#n7di0oq)^X%i2T=NQ,DCb.)&`IiF!V9,gKn)TZuT&E]!B'Tg7c3P9Hb/sQF88mUfk'0\LXfRAh0U7ZJ'N'A=i[a2H'RKDZU'6XE;GX~>endstream
-endobj
-xref
-0 13
-0000000000 65535 f 
-0000000061 00000 n 
-0000000102 00000 n 
-0000000209 00000 n 
-0000000286 00000 n 
-0000000490 00000 n 
-0000000694 00000 n 
-0000000898 00000 n 
-0000000966 00000 n 
-0000001246 00000 n 
-0000001317 00000 n 
-0000002275 00000 n 
-0000002930 00000 n 
-trailer
-<<
-/ID 
-[<8351af60be58a98bdd77cf321802940d><8351af60be58a98bdd77cf321802940d>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 8 0 R
-/Root 7 0 R
-/Size 13
->>
-startxref
-3468
-%%EOF
+# TUVR Serial Protocol (Trimble ↔ HC5500 reverse engineered)
+## Overview
+This document describes the reverse engineered serial protocol between Trimble and HC5500.
+The communication is:
+- ASCII based
+- framed (control characters)
+- XOR checksum protected
+- request / response driven
+---
+## Physical Layer
+- Interface: RS232
+- Baudrate: 9600
+- Parity: none
+- Stop bits: 1
+Important:
+- Sniffing REQUIRES a 10kΩ resistor on the signal line
+- Without it, Trimble may stop transmitting or behave incorrectly
+- Likely due to line state / bus monitoring
+---
+## Frame Structure
+[SOH] CMD [STX] DATA [ETX] CS [EOT]
+Byte values:
+- 0x01 → SOH
+- 0x02 → STX
+- 0x03 → ETX
+- 0x04 → EOT
+---
+## Commands
+### R0D → Request
+R0D 6A → config
+R0D 69 → target rate
+R0D 6B → sections
+R0D 6D → mode
+---
+### A0D → Response
+A0D 6A → config
+A0D 69 → rate
+A0D 6B → sections
+A0D 6D → mode
+---
+### S0C → Set
+S0C 68,<value> → set rate
+S0C 6C,<values> → set sections
+---
+## Checksum
+XOR over:
+CMD + DATA
+Example:
+"S0C68,0.0200"
+Python:
+cs = 0
+for c in "S0C68,0.0200":
+ cs ^= ord(c)
+---
+## Scaling
+rate = l/ha / 10000
+Examples:
+100 → 0.0100
+150 → 0.0150
+200 → 0.0200
+250 → 0.0250
+---
+## Sections
+Always 13 values:
+S0C 6C,1,1,1,1,1,1,1,1,1,1,1,1,1
+---
+## Boot
+Trimble sends:
+R0D 6A repeatedly
+HC responds once with full block:
+- A0D 6A
+- V0C 68
+- A0D 69
+- A0D 6B
+- A0D 6D
+---
+## Run Cycle (~5Hz)
+S0C 68
+R0D 69
+S0C 6C
+R0D 6B
+R0D 6D
+---
+## State Machine
+BOOT → wait for valid response
+RUN → periodic communication
+Fallback → return to BOOT if lost
+---
+## Key Learnings
+- Strict order required
+- Continuous communication required
+- XOR checksum
+- 10k resistor needed for sniffing
