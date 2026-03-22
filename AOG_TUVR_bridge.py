@@ -6,6 +6,7 @@ import time
 import msvcrt
 import logging
 import os
+import sys
 from configparser import ConfigParser
 from typing import Optional, Tuple
 
@@ -49,7 +50,16 @@ logger = logging.getLogger("hc5500")
 # ---------------------------------------------------------------------------
 #  Config
 # ---------------------------------------------------------------------------
-CONFIG_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.ini")
+def get_app_directory() -> str:
+    """Get the application directory (works for both script and frozen exe)."""
+    if getattr(sys, 'frozen', False):
+        # Running as compiled executable
+        return os.path.dirname(sys.executable)
+    else:
+        # Running as script
+        return os.path.dirname(os.path.abspath(__file__))
+
+CONFIG_PATH = os.path.join(get_app_directory(), "config.ini")
 
 def load_config() -> ConfigParser:
     config = ConfigParser()
