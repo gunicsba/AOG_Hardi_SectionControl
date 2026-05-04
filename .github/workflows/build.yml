@@ -1,4 +1,4 @@
-name: Build AOG-TUVR Bridge
+name: Build AOG Bridges
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pyinstaller pyserial
         
-    - name: Build executable
+    - name: Build AOG-TUVR-Bridge
       run: |
         $TAG = "${env:GITHUB_REF_NAME}"
         $EXE_NAME = "AOG-TUVR-Bridge-$TAG"
@@ -36,18 +36,37 @@ jobs:
           Write-Host "WARNING: icon.ico not found!"
         }
         pyinstaller --onefile --console --name "$EXE_NAME" $ICON_FLAG "AOG_TUVR_bridge.py"
+
+    - name: Build AOG-PAVPAGT-Bridge
+      run: |
+        $TAG = "${env:GITHUB_REF_NAME}"
+        $EXE_NAME = "AOG-PAVPAGT-Bridge-$TAG"
+
+        $ICON_FLAG = ""
+        if (Test-Path "icon.ico") {
+          $ICON_FLAG = "--icon=icon.ico"
+        }
+        pyinstaller --onefile --console --name "$EXE_NAME" $ICON_FLAG "AOG_PAVPAGT_bridge.py"
         
-    - name: Upload artifact
+    - name: Upload TUVR artifact
       uses: actions/upload-artifact@v4
       with:
         name: AOG-TUVR-Bridge
         path: dist/AOG-TUVR-Bridge-${{ github.ref_name }}.exe
+
+    - name: Upload PAVPAGT artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: AOG-PAVPAGT-Bridge
+        path: dist/AOG-PAVPAGT-Bridge-${{ github.ref_name }}.exe
         
     - name: Create Release
       id: create_release
       uses: softprops/action-gh-release@v2
       with:
-        files: dist/AOG-TUVR-Bridge-${{ github.ref_name }}.exe
+        files: |
+          dist/AOG-TUVR-Bridge-${{ github.ref_name }}.exe
+          dist/AOG-PAVPAGT-Bridge-${{ github.ref_name }}.exe
         generate_release_notes: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
