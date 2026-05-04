@@ -11,7 +11,17 @@ in real time.
 - Python 3.8+
 - [pyserial](https://pypi.org/project/pyserial/) (`pip install pyserial`)
 - RS-232 connection to the HC5500 (USB-to-RS232 adapter + null modem cable)
+- [RS-232 adapter](https://www.aliexpress.com/item/1005009141854353.html)
 - AgOpenGPS / AgIO broadcasting on UDP port 8888
+
+## Connection
+![nullmodemkabel.jpg](nullmodemkabel.jpg "Null Modem cable")
+
+Make your own cable as pin4 has 12V on Hardi and your USB-RS232 adapter might not like it!
+
+![HARDI_HC5500_COM2.png](HARDI_HC5500_COM2.png "HC5500 connector")
+
+
 
 ## Usage
 
