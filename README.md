@@ -1,6 +1,6 @@
-# AOG-TUVR Bridge
+# AOG-Hardi Bridge
 
-Bridge between **AgOpenGPS** and the **Trimble TUVR / HC5500** controller.
+Bridge between **AgOpenGPS** and the **HC5500** controller.
 
 AgOpenGPS sends section states via UDP. This bridge translates them into
 HC5500 serial commands (`S0C/6C`) so the controller opens and closes sections
