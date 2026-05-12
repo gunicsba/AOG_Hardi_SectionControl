@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['C:\\AgOpenGPS\\AOG_Hardi_SectionControl\\AOG_TUVR_bridge.py'],
+    ['C:\\AgOpenGPS\\AOG_Hardi_SectionControl\\AOG_HARDI_bridge.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='AOG-TUVR-Bridge',
+    name='AOG-HARDI-Bridge',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

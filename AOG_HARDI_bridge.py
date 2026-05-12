@@ -540,7 +540,7 @@ def keyboard_loop(req: HCRequester):
 # ===================================================================
 
 def main():
-    print("AOG-TUVR Bridge  (AgOpenGPS -> HC5500 section control)")
+    print("AOG-HARDI Bridge  (AgOpenGPS -> HC5500 section control)")
     print()
 
     # --- config ---

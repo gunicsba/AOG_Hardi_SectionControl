@@ -1,5 +1,5 @@
 @echo off
-echo Building AOG-TUVR Bridge...
+echo Building AOG-HARDI Bridge...
 pip show pyinstaller >nul 2>&1
 if errorlevel 1 (
     echo Installing PyInstaller...
@@ -17,10 +17,10 @@ if exist "%~dp0icon.ico" (
     set ICON_FLAG=
     echo WARNING: icon.ico not found!
 )
-pyinstaller --onefile --console --name "AOG-TUVR-Bridge" %ICON_FLAG% "%~dp0AOG_TUVR_bridge.py"
-if exist "%~dp0dist\AOG-TUVR-Bridge.exe" (
-    copy "%~dp0dist\AOG-TUVR-Bridge.exe" "%~dp0AOG-TUVR-Bridge.exe" >nul
+pyinstaller --onefile --console --name "AOG-HARDI-Bridge" %ICON_FLAG% "%~dp0AOG_HARDI_bridge.py"
+if exist "%~dp0dist\AOG-HARDI-Bridge.exe" (
+    copy "%~dp0dist\AOG-HARDI-Bridge.exe" "%~dp0AOG-HARDI-Bridge.exe" >nul
     echo.
-    echo Built: AOG-TUVR-Bridge.exe
+    echo Built: AOG-HARDI-Bridge.exe
 )
 pause

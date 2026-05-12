@@ -5,5 +5,5 @@ if errorlevel 1 (
     pip uninstall serial -y >nul 2>&1
     pip install pyserial
 )
-python "%~dp0AOG_TUVR_bridge.py"
+python "%~dp0AOG_HARDI_bridge.py"
 pause

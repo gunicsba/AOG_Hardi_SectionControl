@@ -1,4 +1,4 @@
-# TUVR Serial Protocol (Trimble ↔ HC5500)
+# HARDI Serial Protocol (Trimble ↔ HC5500)
 
 Reverse engineering notes for the serial protocol between a Trimble controller and an HC5500 sprayer controller.
 

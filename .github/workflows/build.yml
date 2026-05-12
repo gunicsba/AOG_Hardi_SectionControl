@@ -26,10 +26,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install pyinstaller pyserial
         
-    - name: Build AOG-TUVR-Bridge
+    - name: Build AOG-HARDI-Bridge
       run: |
         $TAG = "${env:GITHUB_REF_NAME}"
-        $EXE_NAME = "AOG-TUVR-Bridge-$TAG"
+        $EXE_NAME = "AOG-HARDI-Bridge-$TAG"
 
         $ICON_FLAG = ""
         if (Test-Path "icon.ico") {
@@ -38,7 +38,7 @@ jobs:
         } else {
           Write-Host "WARNING: icon.ico not found!"
         }
-        pyinstaller --onefile --console --name "$EXE_NAME" $ICON_FLAG "AOG_TUVR_bridge.py"
+        pyinstaller --onefile --console --name "$EXE_NAME" $ICON_FLAG "AOG_HARDI_bridge.py"
 
     - name: Build AOG-PAVPAGT-Bridge
       run: |
@@ -51,11 +51,11 @@ jobs:
         }
         pyinstaller --onefile --console --name "$EXE_NAME" $ICON_FLAG "AOG_PAVPAGT_bridge.py"
         
-    - name: Upload TUVR artifact
+    - name: Upload HARDI artifact
       uses: actions/upload-artifact@v4
       with:
-        name: AOG-TUVR-Bridge
-        path: dist/AOG-TUVR-Bridge-${{ github.ref_name }}.exe
+        name: AOG-HARDI-Bridge
+        path: dist/AOG-HARDI-Bridge-${{ github.ref_name }}.exe
 
     - name: Upload PAVPAGT artifact
       uses: actions/upload-artifact@v4
@@ -68,7 +68,7 @@ jobs:
       uses: softprops/action-gh-release@v2
       with:
         files: |
-          dist/AOG-TUVR-Bridge-${{ github.ref_name }}.exe
+          dist/AOG-HARDI-Bridge-${{ github.ref_name }}.exe
           dist/AOG-PAVPAGT-Bridge-${{ github.ref_name }}.exe
         generate_release_notes: true
       env:
